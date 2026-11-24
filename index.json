@@ -47,5 +47,53 @@
       }
     }
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "@ainlee/dsh-example-hello",
+      "title": {
+        "en": "Example Hello",
+        "zh": "範例 Hello"
+      },
+      "description": {
+        "en": "A minimal DeepSeek Harness bundle template. Replace it with your own plugin.",
+        "zh": "最小的 DeepSeek Harness bundle 範本，請替換成你自己的插件實作。"
+      },
+      "icon": "icons/example-hello.svg",
+      "author": "ainlee",
+      "homepage": "https://github.com/ainlee/dsh-plugins/tree/master/packages/example-hello",
+      "repository": {
+        "url": "https://github.com/ainlee/dsh-plugins",
+        "directory": "packages/example-hello"
+      },
+      "metadata": {
+        "category": "interface",
+        "keywords": [
+          "dsh",
+          "example",
+          "template"
+        ],
+        "labels": [
+          "experimental"
+        ],
+        "sortKeys": {
+          "updated": 1795530766
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795530766,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/ainlee/dsh-plugins",
+            "commit": "a6f15a62c32d205c652693bfe9b66b83cc11bf21",
+            "path": "packages/example-hello"
+          },
+          "engines": {
+            "dsh": "^0.2.0"
+          }
+        }
+      ]
+    }
+  ]
 }
