@@ -27,6 +27,12 @@
           "en": "Workflows",
           "zh": "工作流"
         }
+      },
+      "localization": {
+        "title": {
+          "en": "Localization",
+          "zh": "語言與在地化"
+        }
       }
     },
     "labels": {
@@ -48,6 +54,54 @@
     }
   },
   "plugins": [
+    {
+      "name": "@ainlee/dsh-zh-hant-full",
+      "title": {
+        "en": "Traditional Chinese (Taiwan) language pack",
+        "zh": "繁體中文（台灣）語言包"
+      },
+      "description": {
+        "en": "Traditional Chinese (Taiwan) language pack for DeepSeek Harness. Adds zh-Hant locale and translated UI strings.",
+        "zh": "DeepSeek Harness 繁體中文（台灣用語）語言包，新增 zh-Hant 語系與介面翻譯字串。"
+      },
+      "icon": "icons/dsh-zh-hant-full.svg",
+      "author": "ainlee",
+      "homepage": "https://github.com/ainlee/dsh-plugins/tree/master/packages/dsh-zh-hant-full",
+      "repository": {
+        "url": "https://github.com/ainlee/dsh-plugins",
+        "directory": "packages/dsh-zh-hant-full"
+      },
+      "metadata": {
+        "category": "localization",
+        "keywords": [
+          "dsh",
+          "locale",
+          "zh-hant",
+          "traditional-chinese",
+          "taiwan",
+          "language-pack"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "updated": 1795505408
+        }
+      },
+      "versions": [
+        {
+          "version": "1.0.1",
+          "publishTimestamp": 1795505408,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/ainlee/dsh-plugins",
+            "commit": "87abeb163da464fad9054242d9f0f4786ead2044",
+            "path": "packages/dsh-zh-hant-full"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.5"
+          }
+        }
+      ]
+    },
     {
       "name": "@ainlee/dsh-example-hello",
       "title": {
