@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Ain's DSH Plugin Market",
+    "zh": "Ain 的 DSH 插件市場"
+  },
+  "description": {
+    "en": "A personal third-party DeepSeek Harness plugin index.",
+    "zh": "個人的 DeepSeek Harness 第三方插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "interface": {
+        "title": {
+          "en": "Interface",
+          "zh": "介面"
+        }
+      },
+      "tools": {
+        "title": {
+          "en": "Tools",
+          "zh": "工具"
+        }
+      },
+      "workflow": {
+        "title": {
+          "en": "Workflows",
+          "zh": "工作流"
+        }
+      }
+    },
+    "labels": {
+      "experimental": {
+        "title": {
+          "en": "Experimental",
+          "zh": "實驗性"
+        }
+      }
+    },
+    "sortKeys": {
+      "updated": {
+        "title": {
+          "en": "Recently updated",
+          "zh": "最近更新"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": []
+}
