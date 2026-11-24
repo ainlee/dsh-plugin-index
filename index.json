@@ -66,10 +66,9 @@
       },
       "icon": "icons/dsh-zh-hant-full.svg",
       "author": "ainlee",
-      "homepage": "https://github.com/ainlee/dsh-plugins/tree/master/packages/dsh-zh-hant-full",
+      "homepage": "https://github.com/ainlee/dsh-zh-hant-full",
       "repository": {
-        "url": "https://github.com/ainlee/dsh-plugins",
-        "directory": "packages/dsh-zh-hant-full"
+        "url": "https://github.com/ainlee/dsh-zh-hant-full"
       },
       "metadata": {
         "category": "localization",
@@ -83,18 +82,17 @@
         ],
         "labels": [],
         "sortKeys": {
-          "updated": 1795505408
+          "updated": 1795511611
         }
       },
       "versions": [
         {
           "version": "1.0.1",
-          "publishTimestamp": 1795505408,
+          "publishTimestamp": 1795511611,
           "source": {
             "type": "git",
-            "url": "https://github.com/ainlee/dsh-plugins",
-            "commit": "87abeb163da464fad9054242d9f0f4786ead2044",
-            "path": "packages/dsh-zh-hant-full"
+            "url": "https://github.com/ainlee/dsh-zh-hant-full",
+            "commit": "d3e2fb4eafc4054ef130aba21370ccd8dd7c37bd"
           },
           "engines": {
             "dsh": "^0.2.2-rc.5"
@@ -114,10 +112,9 @@
       },
       "icon": "icons/example-hello.svg",
       "author": "ainlee",
-      "homepage": "https://github.com/ainlee/dsh-plugins/tree/master/packages/example-hello",
+      "homepage": "https://github.com/ainlee/dsh-example-hello",
       "repository": {
-        "url": "https://github.com/ainlee/dsh-plugins",
-        "directory": "packages/example-hello"
+        "url": "https://github.com/ainlee/dsh-example-hello"
       },
       "metadata": {
         "category": "interface",
@@ -130,18 +127,17 @@
           "experimental"
         ],
         "sortKeys": {
-          "updated": 1795530766
+          "updated": 1795511611
         }
       },
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1795530766,
+          "publishTimestamp": 1795511611,
           "source": {
             "type": "git",
-            "url": "https://github.com/ainlee/dsh-plugins",
-            "commit": "a6f15a62c32d205c652693bfe9b66b83cc11bf21",
-            "path": "packages/example-hello"
+            "url": "https://github.com/ainlee/dsh-example-hello",
+            "commit": "1b0b5c3554d92f06a2d92e4ec5df01977b3cdf35"
           },
           "engines": {
             "dsh": "^0.2.0"
